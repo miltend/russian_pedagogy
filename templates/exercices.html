@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="../scripts/myscript.js"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Упражнения
+    </title>
+
+</head>
+
+<body>
+    <h1 style="text-align:center; position: relative;
+    top: 10px;">Упражнения</h1>
+
+<div class="grid-container">
+    <a class="grid-item" href="index.html">Главная</a>
+    <a class="grid-item" href="exercices.html">Упражнения</a>
+    <div class="grid-item">something</div>
+    <a class="grid-item" href="https://constructicon.github.io/russian/" target="_blank">Конструктикон</a>
+    <div class="grid-item">Контакты</div>
+</div>
+    <form id="lang_level" method="post">Ваш уровень владения русским языком:<br>
+        <label><input type="checkbox">A1</label><br>
+        <label><input type="checkbox">A2</label><br>
+        <label><input type="checkbox">B1</label><br>
+        <label><input type="checkbox">B2</label><br>
+        <label><input type="checkbox">C1</label><br>
+        <label><input type="checkbox">C2</label><br>
+        <label><input type="checkbox">All levels</label><br>
+        <button>Выбрать</button>
+    </form>
+
+    <p class="first_indent">Содержание<br>
+        <a href="#constr_1">Не только XP, но и XP</a><br>
+        <a href="#constr_2">Что касается NP-Gen, то Cl</a><br>
+        <a href="#constr_3">В целом Cl</a><br>
+    </p>
+
+    <h2 class="first_indent" id="constr_1">Не только XP, но и XP</h2>
+
+
+    <h3 class="first_indent">Задание 1</h3>
+    <p class="second_indent">Подберите наиболее подходящие конструкции.<br><br>
+        ...Some <input type="text"> text... more <input type="text"> text...
+    </p>
+    <form class="second_indent" action="" name="f1" onsubmit >
+        Ваш ответ: <input type="text" name="clave1" size="20">
+        <br>
+        <br>
+        <input type="button" value="Отправить" onClick="checkAnswers()">
+  
+      </form>
+    <h3 class="first_indent">Задание 2</h3>
+    <p class="second_indent">Переформулируйте предложения, используя конструкцию <b>не только XP, но и XP</b>.<br><br>
+     a. Роман хорошо играет в футбол и фотографирует.
+    </p>
+    <label class="second_indent" for="answer">Ответ:</label>
+    <input class="second_indent" type="text">
+    <p class="second_indent">б. София красиво поëт и играет на пианино.
+   </p>
+   <label class="second_indent" for="answer">Ответ:</label>
+   <input class="second_indent" id="test_answer" type="text"><br>
+   <button class="second_indent" onclick="ShowAndHide()">Проверить</button>
+   <div class="second_indent" id="answer_result"></div>
+
+   <h2 class="first_indent" id="constr_2">Что касается NP-Gen, то Cl</h2>
+    <h3 class="first_indent">Задание 3</h3>
+    <p class="second_indent">Выберите подходящее слово.<br><br>
+        ...Some text...
+    </p>
+    <div class="second_indent">
+        <input type="radio" name="answer" value="1"><label>Слово №1</label>
+        <input type="radio" name="answer" value="2"><label>Слово №2</label>
+        <input type="radio" name="answer" value="3"><label>Слово №3</label>
+    </div>
+    
+    <h3 class="first_indent">Задание 4</h3>
+    <p class="second_indent">Соотнесите части предложений.<br><br>
+        <table class="second_indent" style="width: 500px">
+            <tr>
+                <td>1. Начало</td>
+                <td>A. Конец</td>
+            </tr>
+            <tr>
+                <td>2. Начало</td>
+                <td>B. Конец</td>
+            </tr>
+            <tr>
+                <td>3. Начало</td>
+                <td>C. Конец</td>
+            </tr>
+            <tr>
+                <td>4. Начало</td>
+                <td>D. Конец</td>
+            </tr>
+        </table>
+    </p>
+    <label class="second_indent" for="answer">Ответ:</label><br>
+    <input class="second_indent" type="text" placeholder="1A, 2B, 3C, 4D">
+
+    <h2 class="first_indent" id="constr_3">В целом Cl</h2>
+
+    <h3 class="first_indent">Задание 5</h3>
+    <p class="second_indent">Вставьте пропущенные слова.<br><br>
+        ...Some text...
+    </p>
+    <h3 class="first_indent">Задание 6</h3>
+    <p class="second_indent">Вставьте пропущенные слова.<br><br>
+        ...Some text...
+    </p>
+
+</body>
+
+</html>
