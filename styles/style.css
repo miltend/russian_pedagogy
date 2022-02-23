@@ -1,8 +1,4 @@
-/* body {
-    background-color: rgb(209, 229, 235);
-} */
 
-/* table, tr,  */
 td {
     border: 1px solid black;
   }
@@ -17,22 +13,49 @@ td {
 { display: inline }
 
 .grid-item_1 {
-  background-color: rgb(74, 113, 241);
+  background-color:#5980B9;
   color: white;
   font-weight: bold;
   text-decoration: none;
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
+  /* margin: 5%; */
 }
 
 .grid-item_2 {
-  background-color: rgba(222, 230, 252, 0.979);
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
-  color:rgb(74, 113, 241);
+  background-color: #DDF1FE;
+  color:#5980B9;
   font-weight: bold;
   text-decoration: none;
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#lesson_btn {
+  border-right: 3.5px solid #5980B9;
+} 
+#constr_btn {
+  border-left: 3.5px solid #5980B9;
+} 
+
+#lesson_cont {
+  font-size: 40px;
+  border-spacing: 10px;
+  
+  
+}
+
+.lesson_cont_row {
+  background-color: #DDF1FE;
+}
+
+.no_undscr {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.no_border {
+  border: 0;
 }
 
 #lang_level {
@@ -46,7 +69,6 @@ td {
     padding-right: 2px;
     padding-bottom: 1px;
 }
-
 
 .first_indent {
     position: relative;
@@ -65,7 +87,6 @@ td {
     left: 80px;
     top: 20px;
 }
-
 
 .dropbtn {
     background-color: #04AA6D;
@@ -86,6 +107,6 @@ td {
   .images {
     position: relative;
     margin-left: 20px;
-    margin-right: 100px;
+    margin-right: 80px;
     margin-bottom: 20px;
   }
