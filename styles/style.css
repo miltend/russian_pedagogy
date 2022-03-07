@@ -51,6 +51,7 @@ td {
 
 .no_undscr {
   text-decoration: none;
+  color:#5980B9;
   margin: 10px;
 }
 
@@ -111,12 +112,42 @@ td {
     margin-bottom: 20px;
   }
 
-  .text_block {
-    text-align: center;
-    font-size: 50px;
+  .home_block {
+    text-align: justify;
+    font-size: 45px;
+    margin: 35px;
+    margin-right: 70px;
+    margin-left: 70px;
+    /* padding: 10px; */
+    background-color: #5980B9;
+    color:white;
+  }
+
+  .home_text {
+    margin: 30px;
+    padding: 15px;
+  }
+
+  .about_block {
+    /* text-align: center; */
+    font-size: 25px;
     margin: 35px;
     margin-right: 70px;
     margin-left: 70px;
     background-color: #DDF1FE;
-    color:#5980B9;
+    color:#5980B9;    
+  }
+
+  .about_titles {
+    font-size: 35px;
+    
+  }
+
+  .about_text {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .ru_text {
+    background-color: #D7E8AE;
   }
