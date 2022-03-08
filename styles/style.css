@@ -1,7 +1,13 @@
 
-td {
-    border: 1px solid black;
+.table_lesson {
+    border: 1.5px solid black;
+    border-collapse: collapse;
   }
+
+ td {
+  border: 0.5px outset black;
+  padding: 5px;
+}
 
 .grid-container {
   display: grid;
@@ -9,8 +15,9 @@ td {
   text-align: center;
 }
 
-#container p
-{ display: inline }
+#container p {
+  display: inline
+}
 
 .grid-item_1 {
   background-color:#5980B9;
@@ -19,7 +26,6 @@ td {
   text-decoration: none;
   padding: 10px;
   font-size: 25px;
-  /* margin: 5%; */
 }
 
 .grid-item_2 {
@@ -39,10 +45,8 @@ td {
 } 
 
 #lesson_cont {
-  font-size: 40px;
+  font-size: 35px;
   border-spacing: 10px;
-  
-  
 }
 
 .lesson_cont_row {
@@ -73,7 +77,7 @@ td {
 
 .first_indent {
     position: relative;
-    left: 50px;
+    margin-left: 50px;
     top: 20px;
 }
 
@@ -85,7 +89,7 @@ td {
 
 .second_indent {
     position: relative;
-    left: 80px;
+    margin-left: 80px;
     top: 20px;
 }
 
@@ -114,7 +118,7 @@ td {
 
   .home_block {
     text-align: justify;
-    font-size: 45px;
+    font-size: 25px;
     margin: 35px;
     margin-right: 70px;
     margin-left: 70px;
@@ -140,7 +144,7 @@ td {
 
   .about_titles {
     font-size: 35px;
-    
+    font-weight: 600;
   }
 
   .about_text {
@@ -150,4 +154,8 @@ td {
 
   .ru_text {
     background-color: #D7E8AE;
+  }
+
+  .construction {
+    color: #5980B9;
   }
